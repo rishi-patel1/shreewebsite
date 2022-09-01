@@ -43,7 +43,7 @@
     background: linear-gradient(75deg,var(--color-secondary),transparent);
     border-radius: 50%;
     position: absolute;
-    /* filter: blur(15px); */
+    filter: blur(15px);
     transition: var(--transition);
 }
 
@@ -51,9 +51,6 @@
     position: relative;
 }
 
-.main__header-right:hover .main__header-circle{
-    filter: blur(15px);
-}
 
 
 .programs{
@@ -63,7 +60,7 @@
 
 .programs__wrapper{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 3rem;
     margin-top: 4rem;
 }

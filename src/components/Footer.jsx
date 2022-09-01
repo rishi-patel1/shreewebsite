@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import Logo from '../images/logo.png'
+import Logo from '../images/logo.jpg'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaFacebookF } from 'react-icons/fa'
 import { AiOutlineTwitter } from 'react-icons/ai'
@@ -15,8 +15,7 @@ const Footer = () => {
                 <Link to="/" className='logo'>
                     <img src={Logo} alt="Footer Logo" />
                 </Link>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aperiam ullam in maxime illum labore consequatur dolores molestias perspiciatis nisi.                    
-                </p>
+                <p>For Shree Sava related information you can contact us on number given below or by sending us a message via our contact form.</p>
                 <div className="footer__socials">
                     <a href="https://linkedin.com/" target="_blank" rel = "noreferrer noopener"> <FaLinkedin/></a>
                     <a href="https://www.facebook.com/cpointonline" target="_blank" rel = "noreferrer noopener"> <FaFacebookF/></a>

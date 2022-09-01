@@ -26,7 +26,7 @@
 }
 
 
-/* =============MEDIA QUERIES MEDIUM =============== */
+/* =============MEDIA QUERIES SMALL =============== */
 @media screen and(max-width : 600px) {
 
     .contact__wrapper{
@@ -40,5 +40,3 @@
     }
     
 }
-
-/* =============MEDIA QUERIES SMALL =============== */

@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <Header title="About Us" image={HeaderImage}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, adipisci. Maiores sint facere explicabo voluptatibus!
+      Shree Sava is today, Gujarat's leading accounting Software product with more than 5000 very well satisfied users.
       </Header>
 
       <section className="about__story">
@@ -21,10 +21,10 @@ const About = () => {
           <div className="about__section-content">
             <h1>Our Story</h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam eveniet ad fugiat nihil obcaecati fugit voluptate aut nobis totam aliquam.
+            C-Point started operations in the year of 1994. And that is quite before Information Technology revolution started its contibution in India.
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat sit ratione molestias sint repudiandae aliquid soluta voluptatem?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vitae.</p>
+            <p>The source of our ideas is people's day to day requirements, and we work to ease their needs. At C-Point we believe in quality products and quality services. We know the needs of common people and that we can serve better ideas to fulfill thier requirements and grow their business.</p>
+            <p>Shree Sava is very popular among all type of business enterprises for their day to day billing, stock and accounting requirements. It has very powerful flexible user defined entry system which can satisfy any type of customized billing.</p>
 
           </div>
         </div>
@@ -36,9 +36,9 @@ const About = () => {
           <div className="about__section-content">
             <h1>Our Vision</h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam eveniet ad fugiat nihil obcaecati fugit voluptate aut nobis totam aliquam.
+            With a vision of providing the best solutions in business transactions, with the help of Information Technology. 
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat sit ratione molestias sint repudiandae aliquid soluta voluptatem?</p>
+            <p>And now We are at the height of customer satisfaction.</p>
 
           </div>
           <div className="about__section-image">
@@ -55,10 +55,10 @@ const About = () => {
           <div className="about__section-content">
             <h1>Our Mission</h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam eveniet ad fugiat nihil obcaecati fugit voluptate aut nobis totam aliquam.
+              Our Focus is to develop such product which can give real solutions with simplicity as well as traditional style of reporting for accounting
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat sit ratione molestias sint repudiandae aliquid soluta voluptatem?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vitae.</p>
+            <p></p>
+            <p></p>
 
           </div>
         </div>

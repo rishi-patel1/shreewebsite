@@ -1,4 +1,7 @@
 import {SiOpenaigym} from 'react-icons/si'
+import {MdMoveToInbox} from 'react-icons/md'
+import {AiOutlinePlusCircle} from 'react-icons/ai'
+import {BsBox} from 'react-icons/bs'
 
 
 
@@ -34,31 +37,24 @@ export const links = [
 export const programs = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <MdMoveToInbox/>,
+        title: "Shree Sava",
+        info: "Software for Accounting, Invoicing & Stock. \nA generalized accounting software with great flexibility to suit your requirement with utmost simplicity has made Shree Sava a perfect choice for day to day accounting, invoicing & stock management. A very popular product in Saurashtra region which has blend of Traditional & Modern accounting system. It is very much useful among SMB segment of Industries & Trading.",
         path: "/programs/111"
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Program Two",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <AiOutlinePlusCircle/>,
+        title: "Software Products",
+        info: "Shree Sava is available at very reasonable cost. A value for money solution in following options. Please Contact us for free DEMO.",
         path: "/programs/222"
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Program Three",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <BsBox/>,
+        title: "Hardware Sales and Services",
+        info: "Authorised Dealer of Computer Servers, Personal Computers, Laptops, Security Cameras, Peripherals, etc. and services like Annual Maintenance, Networking Solutions, Security Camera Installation, Hardware Solutions, Printer Services, etc.",
         path: "/programs/333"
-    },
-    {
-        id: 4,
-        icon: <SiOpenaigym/>,
-        title: "Program Four",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/444"
     }
 ]
 
@@ -147,16 +143,16 @@ export const faqs = [
 export const testimonials = [
     {
         id: 1,
-        name: "Diana Ayi",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Student",
+        name: "Kishan Cement",
+        quote: "Once we were searching for the solution of office accounting, we went through many accounting software. Finally we ended our search with Shree Sava - Digital Accountant.",
+        job: "October 1st, 2011",
         avatar: require("./images/avatar1.jpg")
     },
     {
         id: 2,
-        name: "Daniel Vinyo",
-        quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Software Egineer",
+        name: "Sanraj Pollyprinters",
+        quote: "Never thought the accounting software will work according to our system. They customized Shree Sava according to our requirements in a day.",
+        job: "April 11th, 2012",
         avatar: require("./images/avatar2.jpg")
     },
     {
