@@ -95,7 +95,24 @@ export const values = [
 
 
 
-
+export const header = [
+    {
+      name: "COMPLETE ACCOUNTING SOFTWARE",
+      review: "Useful for all types of Industries, Accountants, Traders, Wholesalers, Restaurants, Hotels, Agencies, Manufacturing Units, Excisable Units, etc."
+    },
+    {
+      name: "BARCODE SOLUTIONS FOR SUPERMARKETS",
+      review: "Barcode facilities for Supermarkets & Shopping Malls."
+    },
+    {
+      name: "SOLUTIONS FOR EXCISE TRADING BUSINESS & EXCISE MANUFACTURING",
+      review: "Suitable for excise, vat, cst, Service Tax, TDS, GST."
+    },
+    {
+      name: "SOLUTIONS FOR RESTAURANTS & FOODCHAINS",
+      review: "Facility of KOT & Billing for Restaurants and FoodChains."
+    }
+  ]
 
 
 
