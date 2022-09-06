@@ -70,12 +70,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2rem;
 }
 
 .programs__program:hover a{
-    background: var(--color-secondary);
-    color: var(--color-gray-600);
+    background: var(--color-gray-100);
+    color: var(--color-secondary);
 }
+.programs__program:hover .btn:hover{
+    background: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.programs__program .btn{
+    background: var(--color-gray-100);
+    color: var(--color-primary);
+}
+
+
 
 
 /* ###############VALUES################## */
@@ -103,7 +115,7 @@
 .card.values__value{
     padding-top: 3.5rem;
     text-align: left;
-    position: relative;
+    position: relative; 
 
 }
 
@@ -253,7 +265,7 @@ footer{
 }
 
 .footer__socials a{
-    background: var(--color-gray-100);
+    background: var(--color-primary-variant);
     padding: 0.7rem;
     border: 1px solid transparent;
     border-radius: 0.6rem;

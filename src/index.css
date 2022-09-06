@@ -1,3 +1,17 @@
+/* --primary-hue: 210;
+--gray-hue : 240;
+--color-primary : hsl(var(--primary-hue),100%,50%);
+--color-primary-variant: hsl(var(--primary-hue),100%,65%);
+--color-secondary: #ffb116;
+--color-gray-100: hsl(var(--gray-hue),47%,94%);
+--color-gray-200: hsl(var(--gray-hue),26%,75%);
+--color-gray-300: hsl(var(--gray-hue),24%,64%);
+--color-gray-400: hsl(var(--gray-hue),16%,41%);
+--color-gray-500: hsl(var(--gray-hue),44%,25%);
+--color-gray-600: hsl(var(--gray-hue),48%,15%); */
+
+
+
 *, *::before, *::after{
     margin: 0;
     border: 0;
@@ -10,16 +24,15 @@
  :root{
     --primary-hue: 210;
     --gray-hue : 240;
-    --color-primary : hsl(var(--primary-hue),100%,50%);
-    --color-primary-variant: hsl(var(--primary-hue),100%,65%);
-    --color-secondary: #ffb116;
-    --color-gray-100: hsl(var(--gray-hue),47%,94%);
-    --color-gray-200: hsl(var(--gray-hue),26%,75%);
-    --color-gray-300: hsl(var(--gray-hue),24%,64%);
-    --color-gray-400: hsl(var(--gray-hue),16%,41%);
-    --color-gray-500: hsl(var(--gray-hue),44%,25%);
-    --color-gray-600: hsl(var(--gray-hue),48%,15%);
-
+    --color-primary : white;  
+    --color-primary-variant: gray;
+    --color-secondary: #FF000D;
+    --color-gray-100: black;
+    --color-gray-200: black;
+    --color-gray-300: black;
+    --color-gray-400: black;
+    --color-gray-500: white;
+    --color-gray-600: black;
     --container-width-lg: 80%;
     --container-width-md: 90%;
     --transition: all 500ms ease;
@@ -31,7 +44,7 @@ body{
     color: var(--color-gray-200);
     line-height: 1.7;
     overflow-x: hidden;
-    background: var(--color-gray-600) url('./images/bg_texture.png');
+    background: var(--color-gray-600) url('./images/bg_texture.jpeg');
 }
 
 .container{
@@ -189,6 +202,7 @@ section{
 
 .header__content h2{
     margin-bottom: 1rem;
+    color: var(--color-secondary);
 }
 
 .header__content p{
