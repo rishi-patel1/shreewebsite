@@ -15,9 +15,13 @@ export const links = [
         path: '/about'
     },
     {
-        name: "Gallery",
-        path: '/gallery'
+        name: "Products",
+        path: "/products"
     },
+    // {
+    //     name: "Gallery",
+    //     path: '/gallery'
+    // },
     {
         name: "Our Clients",
         path: '/ourClients'
@@ -192,7 +196,7 @@ export const testimonials = [
 export const clients = [
     {
         id: 1,
-        name: 'Industry and Manufacturers',
+        name: 'Industries and Manufacturers',
         Industry: [
             {client_name: 'Kishan Cement Pvt. Ltd.'},
             {client_name: 'Sadguru Cotton Pvt. Ltd.'},
@@ -210,7 +214,7 @@ export const clients = [
         
     },
     {
-        id: 1,
+        id: 2,
         name: 'Supermarkets & Shopping Malls',
         Industry: [
             {client_name: 'Chandan Supermarket'},
@@ -220,7 +224,7 @@ export const clients = [
         
     },
     {
-        id: 1,
+        id: 3,
         name: 'Hotel & Restaurants',
         Industry: [
             {client_name: 'Apple Bite Restaurant'},
@@ -231,7 +235,7 @@ export const clients = [
         
     },
     {
-        id: 1,
+        id: 4,
         name: 'Traders',
         Industry: [
             {client_name: 'Laxmi Stationary'},
@@ -245,7 +249,7 @@ export const clients = [
         
     },
     {
-        id: 1,
+        id: 5,
         name: 'Schools & Colleges',
         Industry: [
             {client_name: 'Bharad School'},
@@ -258,7 +262,25 @@ export const clients = [
         
     },
 ]
-
+export const products = [
+    {
+        id: 1,
+        name: 'Shree Sava Accounting Software - Windows(Single/Multi user)',
+        image: require("./images/vfpbox.jpg"),
+        desc: [
+            {point: 'Compatible with all WINDOWS operating System.'},
+            {point: 'Easy conversion of DOS based SHREE data.'},
+            {point: 'Fastest performance.'},
+            {point: 'Easy Operating and easy MENU system.'},
+            {point: 'Good and clean VISIBILITY and Graphical User Interface.'},
+            {point: 'Supports both DOT-MATRIX and LASER Printer.'},
+            {point: 'Report export and Email facility to PDF, HTML, WORD, EXCEL, etc.'},
+            {point: 'New Smart Backup System.'},
+            {point: 'Multiple Users & Customized user rights facility.'},
+        ]
+        
+    }
+]
 
 export const plans = [
     {
