@@ -55,10 +55,14 @@ const About = () => {
           <div className="about__section-content">
             <h1>Our Mission</h1>
             <p>
-              Our Focus is to develop such product which can give real solutions with simplicity as well as traditional style of reporting for accounting
+              Our Focus is to develop such product which can give real solutions with simplicity as well as traditional style of reporting for accounting.
             </p>
-            <p></p>
-            <p></p>
+            <p>
+              Our goal is to change the world by accelerating the pace of discovery, innovation, development, and learning in engineering and science.
+            </p>
+            <p>
+              We work to provide the ultimate computing environment for technical computation, visualization, design, simulation, and implementation. We use this environment to provide innovative solutions in accounting.
+            </p>
 
           </div>
         </div>

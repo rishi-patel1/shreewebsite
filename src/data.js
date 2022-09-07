@@ -69,20 +69,20 @@ export const values = [
     {
         id: 1,
         icon: <SiOpenaigym/>,
-        title: "Value One",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Respect and Invest",
+        desc: "We believe in respect for the individual and care about investing in each other's growth, both for people at MathWorks and for those in our extended community. "
     },
     {
         id: 2,
         icon: <SiOpenaigym/>,
-        title: "Value Two",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Credibility and Integrity",
+        desc: "We conduct ourselves with uncompromising integrity and honesty as individuals, as teams, and as a company. We strive to earn enduring credibility with others, which we believe is essential to long-term personal and business relationships.."
     },
     {
         id: 3,
         icon: <SiOpenaigym/>,
-        title: "Value Three",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Rational Workplace",
+        desc: 'We believe in building a rational workplace and in making intelligent decisions. In any given situation, we believe that there is a "right answer" and a best way to do things, and we strive to reach them.'
     },
     {
         id: 4,

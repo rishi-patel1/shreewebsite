@@ -11,13 +11,13 @@
     margin-bottom: 2rem;
 }
 .plan h1{
-    color: var(--color-primary-variant);
+    color: var(--color-gray-100);
     display: inline;
 }
 
 .plan h2{
     display: inline;
-    color: var(--color-gray-400);
+    color: var(--color-secondary);
 }
 
 .plan h4{
@@ -26,15 +26,24 @@
 .plan p{
     margin-top: 1rem;
     color: var(--color-gray-100);
+    font-weight: bold;
 }
 .plan p.disabled{
     color: var(--color-gray-400);
+    font-weight: normal;
 }
 .plan button{
     margin-top: 3rem;
     cursor: pointer;
+    background: var(--color-gray-100);
+    color: var(--color-primary);
 }
-
+.plan:hover button{
+    color: var(--color-secondary);
+}
+.plan button:hover{
+    color: var(--color-primary);
+}
 
 
 /* ##################MEDIA QUERIES################### */
