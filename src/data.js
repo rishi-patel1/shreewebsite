@@ -19,13 +19,18 @@ export const links = [
         path: '/gallery'
     },
     {
+        name: "Our Clients",
+        path: '/ourClients'
+    },
+    {
         name: "Plans",
         path: '/plans'
     },
     {
         name: "Contact",
         path: '/contact'
-    }
+    },
+    
 ]
 
 
@@ -87,8 +92,8 @@ export const values = [
     {
         id: 4,
         icon: <SiOpenaigym/>,
-        title: "Value Four",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Keep Promises",
+        desc: "We have a long history of solving complex business challenges. That's why our customers trust us. We work as one team to constantly earn this trust, delivering the best outcome in the simplest way possible."
     }
 ]
 
@@ -184,13 +189,81 @@ export const testimonials = [
 
 
 
-
+export const clients = [
+    {
+        id: 1,
+        name: 'Industry and Manufacturers',
+        Industry: [
+            {client_name: 'Kishan Cement Pvt. Ltd.'},
+            {client_name: 'Sadguru Cotton Pvt. Ltd.'},
+            {client_name: 'Almighty Agro Pvt. Ltd.'},
+            {client_name: 'J.K Machine Tools'},
+            {client_name: 'Kich Industries'},
+            {client_name: 'Major Cement Pvt. Ltd.'},
+            {client_name: 'Sanraj Polyprinters'},
+            {client_name: 'Royal Tiles'},
+            {client_name: 'Kishan Autoparts Ltd.'},
+            {client_name: 'Essel Valves Pvt. Ltd.'},
+            {client_name: 'Hicon Technocast Pvt. Ltd.'},
+            {client_name: 'Italica Metalware  Pvt. Ltd.' }
+        ]
+        
+    },
+    {
+        id: 1,
+        name: 'Supermarkets & Shopping Malls',
+        Industry: [
+            {client_name: 'Chandan Supermarket'},
+            {client_name: 'Umiya Supermarket'},
+            {client_name: "Pick 'N Pack"}
+        ]
+        
+    },
+    {
+        id: 1,
+        name: 'Hotel & Restaurants',
+        Industry: [
+            {client_name: 'Apple Bite Restaurant'},
+            {client_name: 'Hotel Kavery'},
+            {client_name: 'Krishna Park'},
+            {client_name: 'JMC Hotel'}
+        ]
+        
+    },
+    {
+        id: 1,
+        name: 'Traders',
+        Industry: [
+            {client_name: 'Laxmi Stationary'},
+            {client_name: 'Mahavir Trading CO.'},
+            {client_name: 'Victory Electronics'},
+            {client_name: 'Coronation Motors'},
+            {client_name: 'Haresh Engineering'},
+            {client_name: 'Patel Mobile'},
+            {client_name: 'Punit Automobiles'}
+        ]
+        
+    },
+    {
+        id: 1,
+        name: 'Schools & Colleges',
+        Industry: [
+            {client_name: 'Bharad School'},
+            {client_name: 'R.P. Bhalodia College'},
+            {client_name: 'B.M. Kyada School'},
+            {client_name: 'Green Farm School'},
+            {client_name: 'Parimal School'},
+            {client_name: 'Sarvoday School'}
+        ]
+        
+    },
+]
 
 
 export const plans = [
     {
         id: 1,
-        name: 'Silver Package',
+        name: 'Single User',
         desc: 'This package is perfect for beginners who need constant help',
         price: 29.99,
         features: [
@@ -211,7 +284,7 @@ export const plans = [
     },
     {
         id: 2,
-        name: 'Gold Package',
+        name: 'Multi User / Lan Version',
         desc: 'This is the perfect package for beginners who know what their doing',
         price: 49.99,
         features: [
@@ -255,61 +328,3 @@ export const plans = [
 
 
 
-
-
-
-
-
-
-// const Trainer1 = require('./images/trainer1.jpg')
-// const Trainer2 = require('./images/trainer2.jpg')
-// const Trainer3 = require('./images/trainer3.jpg')
-// const Trainer4 = require('./images/trainer4.jpg')
-// const Trainer5 = require('./images/trainer5.jpg')
-// const Trainer6 = require('./images/trainer6.jpg')
-
-
-// export const trainers = [
-//     {
-//         id: 1,
-//         image: Trainer1,
-//         name: 'John Doe',
-//         job: 'Aerobic Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 2,
-//         image: Trainer2,
-//         name: 'Daniel vinyo',
-//         job: 'Speed Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 3,
-//         image: Trainer3,
-//         name: 'Edem Quist',
-//         job: 'Flexibility Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 4,
-//         image: Trainer4,
-//         name: 'Shatta Wale',
-//         job: 'Body Composition Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 5,
-//         image: Trainer5,
-//         name: 'Diana Ayi',
-//         job: 'Circuit Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     },
-//     {
-//         id: 6,
-//         image: Trainer6,
-//         name: 'Wayne Carter',
-//         job: 'Physical Intelligence Trainer',
-//         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//     }
-// ]

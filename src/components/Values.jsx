@@ -16,7 +16,7 @@ const Values = () => {
             <div className="values__right">
                 <SectionHead icon={<GiCutDiamond/>} title="Values"/>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est sequi a consequuntur voluptatem, explicabo accusantium.
+                   We never stop pushing boundaries of what our solutions can do for people and for the world. We are always improving and adapting to stay ahead.
                 </p>
                 <div className="values__wrapper">
                     {

@@ -8,7 +8,7 @@ const Plans = () => {
   return (
     <>
     <Header title="Membership Plans" image={HeaderImage}>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nam sapiente debitis, error culpa veniam pariatur molestiae numquam tempore suscipit iste ad fugiat quas commodi obcaecati ullam! Magnam, voluptatibus.
+      Choose your Pricing Plan
     </Header>
     <section className="plans">
       <div className="container plans__container">
