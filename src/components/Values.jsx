@@ -1,4 +1,5 @@
-import Image from '../images/values.jpg'
+import Image from '../images/showroom.jpg'
+import Image2 from '../images/showroom.jpg'
 import SectionHead from './SectionHead'
 import {GiCutDiamond} from 'react-icons/gi'
 import { values } from '../data'
@@ -11,6 +12,7 @@ const Values = () => {
             <div className="values__left">
                 <div className="values__image">
                     <img src={Image} alt="Values Image" />
+                    <img src={Image2} alt="value part 2" />
                 </div>
             </div>
             <div className="values__right">

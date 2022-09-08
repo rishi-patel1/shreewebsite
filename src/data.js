@@ -1,7 +1,10 @@
-import {SiOpenaigym} from 'react-icons/si'
+import {GiGrowth} from 'react-icons/gi'
+import {GiRelationshipBounds} from 'react-icons/gi'
 import {MdMoveToInbox} from 'react-icons/md'
 import {AiOutlinePlusCircle} from 'react-icons/ai'
 import {BsBox} from 'react-icons/bs'
+import {FaRegHandshake} from 'react-icons/fa'
+import {GrUserWorker} from 'react-icons/gr'
 
 
 
@@ -77,25 +80,25 @@ export const programs = [
 export const values = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
+        icon: <GiGrowth/>,
         title: "Respect and Invest",
-        desc: "We believe in respect for the individual and care about investing in each other's growth, both for people at MathWorks and for those in our extended community. "
+        desc: "We believe in respect for the individual and care about investing in each other's growth, both for people at C-Point and for those in our extended community. "
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
+        icon: <GiRelationshipBounds/>,
         title: "Credibility and Integrity",
-        desc: "We conduct ourselves with uncompromising integrity and honesty as individuals, as teams, and as a company. We strive to earn enduring credibility with others, which we believe is essential to long-term personal and business relationships.."
+        desc: "We conduct ourselves with uncompromising integrity and honesty as individuals, as teams, and as a company. We strive to earn enduring credibility with others, which we believe is essential to long-term personal and business relationships."
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
+        icon: <GrUserWorker/>,
         title: "Rational Workplace",
         desc: 'We believe in building a rational workplace and in making intelligent decisions. In any given situation, we believe that there is a "right answer" and a best way to do things, and we strive to reach them.'
     },
     {
         id: 4,
-        icon: <SiOpenaigym/>,
+        icon: <FaRegHandshake/>,
         title: "Keep Promises",
         desc: "We have a long history of solving complex business challenges. That's why our customers trust us. We work as one team to constantly earn this trust, delivering the best outcome in the simplest way possible."
     }
@@ -215,27 +218,6 @@ export const clients = [
     },
     {
         id: 2,
-        name: 'Supermarkets & Shopping Malls',
-        Industry: [
-            {client_name: 'Chandan Supermarket'},
-            {client_name: 'Umiya Supermarket'},
-            {client_name: "Pick 'N Pack"}
-        ]
-        
-    },
-    {
-        id: 3,
-        name: 'Hotel & Restaurants',
-        Industry: [
-            {client_name: 'Apple Bite Restaurant'},
-            {client_name: 'Hotel Kavery'},
-            {client_name: 'Krishna Park'},
-            {client_name: 'JMC Hotel'}
-        ]
-        
-    },
-    {
-        id: 4,
         name: 'Traders',
         Industry: [
             {client_name: 'Laxmi Stationary'},
@@ -249,7 +231,7 @@ export const clients = [
         
     },
     {
-        id: 5,
+        id: 3,
         name: 'Schools & Colleges',
         Industry: [
             {client_name: 'Bharad School'},
@@ -261,6 +243,29 @@ export const clients = [
         ]
         
     },
+    {
+        id: 4,
+        name: 'Supermarkets & Shopping Malls',
+        Industry: [
+            {client_name: 'Chandan Supermarket'},
+            {client_name: 'Umiya Supermarket'},
+            {client_name: "Pick 'N Pack"}
+        ]
+        
+    },
+    {
+        id: 5,
+        name: 'Hotel & Restaurants',
+        Industry: [
+            {client_name: 'Apple Bite Restaurant'},
+            {client_name: 'Hotel Kavery'},
+            {client_name: 'Krishna Park'},
+            {client_name: 'JMC Hotel'}
+        ]
+        
+    }
+    
+    
 ]
 export const products = [
     {
@@ -279,8 +284,115 @@ export const products = [
             {point: 'Multiple Users & Customized user rights facility.'},
         ]
         
+    },
+    {
+        id: 2,
+        name: 'Shree Sava Accounting Software - DOS(Single/Multi user)',
+        image: require("./images/dosbox.jpg"),
+        desc: [
+            {point: 'Compatible with all DOS based operating System.'},
+            {point: 'Fast performance.'},
+            {point: 'Easy Operating and easy MENU system.'},
+            {point: 'Good and clean VISIBILITY and Graphical User Interface.'},
+            {point: 'Smart Backup System.'},
+            {point: 'Multiple Users & Customized user rights facility.'}
+        ]
+        
+    },
+    {
+        id: 3,
+        name: 'Network Servers',
+        image: require("./images/server.jpg"),
+        desc: [
+            {point: 'Server Computing for network.'},
+            {point: 'Control, manage and protect your network.'},
+            {point: 'Provides remote access to files.'},
+            {point: 'A central computing point for information across a distributed network.'},
+            {point: 'Provides remote access to other devices on the network.'}
+        ]
+        
+    },
+    {
+        id: 4,
+        name: 'Desktop Computers',
+        image: require("./images/desktop.jpg"),
+        desc: [
+            {point: 'Personal Computer for regular use'},
+            {point: 'Desk-sized Computer for Home & Office.'},
+            {point: 'Branded Computers.'},
+            {point: 'Assembled Computers.'},
+            {point: 'Multimedia Computers.'}
+        ]
+        
+    },
+    {
+        id: 5,
+        name: 'Laptops',
+        image: require("./images/laptop.png"),
+        desc: [
+            {point: 'Portable Computer for travelling use.'},
+            {point: 'Requires less space to work.'},
+            {point: 'Wireless Computing.'},
+            {point: 'Touch Screen Access.'}
+        ]
+        
+    },
+    {
+        id: 6,
+        name: 'All-in-one Computers.',
+        image: require("./images/allinone.png"),
+        desc: [
+            {point: 'Semi-Portable Computer.'},
+            {point: 'Multi purpose Computer.'},
+            {point: 'Can be used as Television.'},
+            {point: 'Lesser Cable Management.'}
+        ]
+        
+    },
+    {
+        id: 7,
+        name: 'Printers & Scanners',
+        image: require("./images/printer.png"),
+        desc: [
+            {point: 'Printing solution for office.'},
+            {point: 'Printer with copying ability.'},
+            {point: 'Network Printers used as network resource.'},
+            {point: 'Lesser Cable Management.'},
+            {point: 'Laser Printers & Dot-Matrix Printers.'}
+        ]
+        
+    },
+    {
+        id: 8,
+        name: 'Computer Accessories',
+        image: require("./images/computer_accessories.png"),
+        desc: [
+            {point: 'Music System & Computer Speakers.'},
+            {point: 'Portable Hard Disks & Pen drives.'},
+            {point: 'All size of Laptop Bags.'},
+            {point: 'Security Cameras & Web Cameras.'},
+            {point: 'Cartridges & Toners.'},
+            {point: 'Headphones & Earphones.'},
+            {point: 'Computer Cables & Projectors.'}
+        ]
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
     }
+    
 ]
+
 
 export const plans = [
     {

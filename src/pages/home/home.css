@@ -98,9 +98,14 @@
     gap: 12%;
 }
 
-.values__image:hover{
+.values__image img:hover{
     filter: saturate(0.25);
     transition: var(--transition);
+}
+
+
+.values__image img{
+    margin-top: 5rem ;
 }
 
 .values__right > p {

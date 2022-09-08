@@ -5,8 +5,8 @@ import {BsArrowRightShort} from 'react-icons/bs'
 import Card from "../../UI/Card"
 import './ourClients.css'
 
-
 const OurClients = () => {
+
   return (
     <>
     <Header title="Our Clients" image={HeaderImage}>
