@@ -1,25 +1,24 @@
 import { Link } from "react-router-dom"
-import Image from "../images/main_header.png"
+import Image from "../images/vfpbox.jpg"
 
 const MainHeader = () => {
   return (
     <header className="main__header">
       <div className="container main__header-container">
         <div className="main__header-left">
-          <h4>#100DaysOfWorkout</h4>
-          <h1>Join The Legends</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Et asperiores, totam dolore voluptates tempora dolorem.
-          </p> 
-          <Link to="/plans" className=""btn lg>Get Started</Link>
-        </div>
-        <div className="main__header-right">
-          <div className="main__header-circle"></div>
           <div className="main__header-image">
             <img src={Image} alt="Main Header Image" />
           </div>
         </div>
+        <div className="main__header-right">
+          <h1>Shree Sava - Accounting Software</h1>
+          <h3>Complete Accounting Software</h3>
+          <p>
+            Usefull for  all types of Industries, Accountants, Traders, Wholesalers, Restaurants, Hotels, Agencies, Manufacturing Units, Excisable Units, etc.
+          </p> 
+          <Link to="/plans" className=""btn lg>Get Started</Link>
+        </div>
+        
       </div>
     </header>
   )
