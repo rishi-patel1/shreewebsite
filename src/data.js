@@ -81,7 +81,7 @@ export const programs = [
         icon: <MdMoveToInbox/>,
         title: "Shree Sava",
         info: "Software for Accounting, Invoicing & Stock. \nA generalized accounting software with great flexibility to suit your requirement with utmost simplicity has made Shree Sava a perfect choice for day to day accounting, invoicing & stock management. A very popular product in Saurashtra region which has blend of Traditional & Modern accounting system. It is very much useful among SMB segment of Industries & Trading.",
-        path: "/programs/111"
+        path: "/plans"
     },
     {
         id: 2,
@@ -331,7 +331,7 @@ export const products = [
     {
         id: 3,
         name: 'Network Servers',
-        image: require("./images/server.jpg"),
+        image: require("./images/server.png"),
         desc: [
             {point: 'Server Computing for network.'},
             {point: 'Control, manage and protect your network.'},
@@ -344,7 +344,7 @@ export const products = [
     {
         id: 4,
         name: 'Desktop Computers',
-        image: require("./images/desktop.jpg"),
+        image: require("./images/desktop.png"),
         desc: [
             {point: 'Personal Computer for regular use'},
             {point: 'Desk-sized Computer for Home & Office.'},
