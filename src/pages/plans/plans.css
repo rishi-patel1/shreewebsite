@@ -11,7 +11,7 @@
     margin-bottom: 2rem;
 }
 .plan h1{
-    color: var(--color-gray-100);
+    color: var(--color-black);
     display: inline;
 }
 
@@ -25,17 +25,17 @@
 }
 .plan p{
     margin-top: 1rem;
-    color: var(--color-gray-100);
+    color: var(--color-black);
     font-weight: bold;
 }
 .plan p.disabled{
-    color: var(--color-gray-400);
+    color: var(--color-black);
     font-weight: normal;
 }
 .plan button{
     margin-top: 3rem;
     cursor: pointer;
-    background: var(--color-gray-100);
+    background: var(--color-black);
     color: var(--color-primary);
 }
 .plan:hover button{

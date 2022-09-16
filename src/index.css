@@ -3,7 +3,7 @@
 --color-primary : hsl(var(--primary-hue),100%,50%);
 --color-primary-variant: hsl(var(--primary-hue),100%,65%);
 --color-secondary: #ffb116;
---color-gray-100: hsl(var(--gray-hue),47%,94%);
+--color-black: hsl(var(--gray-hue),47%,94%);
 --color-gray-200: hsl(var(--gray-hue),26%,75%);
 --color-gray-300: hsl(var(--gray-hue),24%,64%);
 --color-gray-400: hsl(var(--gray-hue),16%,41%);
@@ -27,12 +27,7 @@
     --color-primary : white;  
     --color-primary-variant: gray;
     --color-secondary: #FF000D;
-    --color-gray-100: black;
-    --color-gray-200: black;
-    --color-gray-300: black;
-    --color-gray-400: black;
-    --color-gray-500: white;
-    --color-gray-600: black;
+    --color-black: black;
     --container-width-lg: 80%;
     --container-width-md: 90%;
     --transition: all 500ms ease;
@@ -41,10 +36,10 @@
 
 body{
     font-family: 'Montserrat','sans-serif';
-    color: var(--color-gray-200);
+    color: var(--color-black);
     line-height: 1.7;
     overflow-x: hidden;
-    background: var(--color-gray-600) url('./images/bg_texture.jpeg');
+    background: var(--color-black) url('./images/bg_texture.jpeg');
 }
 
 .container{
@@ -55,7 +50,7 @@ body{
 
 h1,h2,h3,h4,h5{
     line-height: 1.2;
-    color: var(--color-gray-100);
+    color: var(--color-black);
 }
 
 h1{
@@ -66,7 +61,7 @@ h2{
 }
 
 a{
-    color: var(--color-gray-100);
+    color: var(--color-black);
 }
 
 img{
@@ -76,7 +71,7 @@ img{
 }
 
 .btn{
-    color: var(--color-gray-100);
+    color: var(--color-black);
     width: fit-content;
     margin: 0 auto;
     padding: 0.9rem 2rem;
@@ -87,7 +82,7 @@ img{
 
 .btn:hover{
     background: var(--color-secondary);
-    color: var(--color-gray-600);
+    color: var(--color-black);
 }
 
 
@@ -104,7 +99,7 @@ img{
 }
 
 .btn.sm:hover{
-    background: var(--color-gray-100);
+    background: var(--color-black);
 }
 
 
@@ -120,7 +115,7 @@ section{
 }
 
 .section__head span{
-    background:  var(--color-gray-500);
+    background:  var(--color-primary);
     padding: 0.8rem;
     border-radius: 1rem;
     color: var(--color-secondary);
@@ -128,7 +123,7 @@ section{
 }
 
 .card{
-    background: var(--color-gray-500);
+    background: var(--color-primary);
     border: 2px solid transparent;
     text-align: center;
     padding: 3rem 2rem;
@@ -138,7 +133,7 @@ section{
 
 .card:hover{
     background: transparent;
-    border-color: var(--color-gray-400);
+    border-color: var(--color-black);
     cursor: default;
 }
 
@@ -146,7 +141,7 @@ section{
     width: 3rem;
     height: 3rem;
     background: var(--color-primary);
-    color: var(--color-gray-100);
+    color: var(--color-black);
     font-size: 1.5rem;
     padding: 0.5rem;
     display: grid;
@@ -161,7 +156,7 @@ section{
 
 .card:hover span{
     background: var(--color-secondary);
-    color: var(--color-gray-600);
+    color: var(--color-black);
     border: none;
 }
 
@@ -175,7 +170,7 @@ section{
     margin-top: 5rem;
     height: 20rem;
     overflow: hidden;
-    border-bottom: 2px solid var(--color-gray-400);
+    border-bottom: 2px solid var(--color-black);
 }
 
 .header__container{
@@ -200,7 +195,7 @@ section{
     width: 44%;
     margin: 0 auto;
     text-align: center;
-    color: var(--color-gray-100);
+    color: var(--color-black);
 }
 
 .header__content h2{

@@ -65,7 +65,7 @@ nav{
     }
 
     .nav__toggle-btn svg{
-        color: var(--color-gray-100);
+        color: var(--color-black);
     }
  
     .nav__links{

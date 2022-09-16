@@ -50,8 +50,7 @@ export const links = [
 export const mainHeader = [
     {
         id:1,
-        heading: "Complete Accounting Software",
-        image:'',
+        heading: "Complete Accounting Software",    
         desc: "Usefull for all types of Industries, Accountants, Traders, Wholesalers, Restaurants, Hotels, Agencies, Manufacturing Units, Excisable Units, etc."
     },
     {
@@ -96,7 +95,7 @@ export const programs = [
         icon: <BsBox/>,
         title: "Hardware Sales and Services",
         info: "Authorised Dealer of Computer Servers, Personal Computers, Laptops, Security Cameras, Peripherals, etc. and services like Annual Maintenance, Networking Solutions, Security Camera Installation, Hardware Solutions, Printer Services, etc.",
-        path: "/programs/333"
+        path: "/products"
     }
 ]
 
@@ -425,8 +424,8 @@ export const products = [
 export const GSTVideos = [
     {
         id: 1,
-        title: '',
-        videoId: "aFX-pFJ1B_Q",
+        title: 'Shree Sava Backup Restore Password',
+        videoId: "dRN2s550oUI",
         opts : {
             height: '390',
             width: '640',
@@ -438,8 +437,8 @@ export const GSTVideos = [
     },
     {
         id: 2,
-        title: '',
-        videoId: "bjCvc_c-45s",
+        title: 'ShreeSava Einvoice EwayBill',
+        videoId: "uJbRtvcL9cg",
         opts : {
             height: '390',
             width: '640',
@@ -451,8 +450,34 @@ export const GSTVideos = [
     },
     {
         id: 3,
-        title: '',
-        videoId: "0rIK84nuTD8",
+        title: 'Shree Sava ShortCut Keys Video',
+        videoId: "XeDVCjH85No",
+        opts : {
+            height: '390',
+            width: '640',
+            playerVars: {
+              // https://developers.google.com/youtube/player_parameters
+              autoplay: 0,
+            },
+          }
+    },
+    {
+        id: 4,
+        title: 'ERP VIDEO FOR AUDITOR SHREESAVA',
+        videoId: "KrM1eoUD5b4",
+        opts : {
+            height: '390',
+            width: '640',
+            playerVars: {
+              // https://developers.google.com/youtube/player_parameters
+              autoplay: 0,
+            },
+          }
+    },
+    {
+        id: 5,
+        title: 'How to Manage TCS AND TDS in Shree Sava',
+        videoId: "uksyOdaN7Qk",
         opts : {
             height: '390',
             width: '640',
