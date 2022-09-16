@@ -21,10 +21,7 @@ export const links = [
         name: "Products",
         path: "/products"
     },
-    // {
-    //     name: "Gallery",
-    //     path: '/gallery'
-    // },
+    
     {
         name: "Our Clients",
         path: '/ourClients'
@@ -37,6 +34,10 @@ export const links = [
         name: "Contact",
         path: '/contact'
     },
+    {
+        name: "GST Help",
+        path: '/gallery'
+    }
     
 ]
 
@@ -417,7 +418,47 @@ export const products = [
     }
     
 ]
-
+export const GSTVideos = [
+    {
+        id: 1,
+        title: '',
+        videoId: "aFX-pFJ1B_Q",
+        opts : {
+            height: '390',
+            width: '640',
+            playerVars: {
+              // https://developers.google.com/youtube/player_parameters
+              autoplay: 0,
+            },
+          }
+    },
+    {
+        id: 2,
+        title: '',
+        videoId: "bjCvc_c-45s",
+        opts : {
+            height: '390',
+            width: '640',
+            playerVars: {
+              // https://developers.google.com/youtube/player_parameters
+              autoplay: 0,
+            },
+          }
+    },
+    {
+        id: 3,
+        title: '',
+        videoId: "0rIK84nuTD8",
+        opts : {
+            height: '390',
+            width: '640',
+            playerVars: {
+              // https://developers.google.com/youtube/player_parameters
+              autoplay: 0,
+            },
+          }
+    }
+]
 
 export const plans = [
     {
