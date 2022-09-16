@@ -5,10 +5,15 @@
     place-items: center;
     margin-top: 3rem;
 }
-
 .main__header-container{
-    height: 100%;
     margin-top: 6rem;
+}
+.main__header-swiper{
+    /* height: 100%; */
+    padding: 2rem;
+    background: white;
+    width: fit-content;
+    height: fit-content;
     display: grid;
     grid-template-columns: 30% 70%;
     align-items: center;
@@ -16,7 +21,7 @@
 }
 
 .main__header-right{
-    margin-top: -3rem;
+    margin-top: -8rem;
 
 }
 .main__header-right h3{
@@ -30,6 +35,19 @@
 .main__header-right p{
     margin:  1rem 0 3.5rem;
     font-size: 1.1rem;
+    bottom: 0;
+    position: absolute;
+      
+}
+.main__header-right img{
+    width: 50%;
+}
+.main__header-right .btn{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+
 }
 
 .main__header-left{

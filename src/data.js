@@ -51,21 +51,25 @@ export const mainHeader = [
     {
         id:1,
         heading: "Complete Accounting Software",
+        image:'',
         desc: "Usefull for all types of Industries, Accountants, Traders, Wholesalers, Restaurants, Hotels, Agencies, Manufacturing Units, Excisable Units, etc."
     },
     {
         id:2,
         heading: "Barcode Solutions for Supermarkets",
+        image: require("./images/barcode.jpg"),
         desc: "Barcode facility for supermarkets and shopping malls"
     },
     {
         id:3,
         heading: "Solutions for Restaurants and Food-Chains",
+        image: require("./images/restaurants.jpg"),
         desc: "Facility for KOT & Billing for restuarants and Food Chains"
     },
     {
         id:4,
         heading: "Solutions for Excise Trading Business and Excise Manufacturing",
+        image: require("./images/excise.jpg"),
         desc: "Suitable for Excise, VAT, CST, Service Tax, TDS"
     },
 ]
