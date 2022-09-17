@@ -159,35 +159,56 @@ export const header = [
 
 
 export const faqs = [
+
     {
         id: 1,
-        question: "How often should I exercise?",
-        answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
+        question: "How to start my Company Accounts in Shree ?",
+        answer: "First of all create new company from company menu. When you will select company from list for first time you will get  list of default sample company, select appropriate type and you will get all default setting."
     },
     {
         id: 2,
-        question: "What time of day is best to work out?",
-        answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
+        question: "What is the first step to start new year?",
+        answer: "Take Final Balance sheet of previous year and create all accounts with closing balance as opening balance. Create all Items with opening stock."
     },
     {
         id: 3,
-        question: "How long should my workouts be?",
-        answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+        question: "How to create user defined Sales Entry ?",
+        answer: "This is the most important part of setting required for creating fields for entering required information in sales like Sales Man Name, Transport Name, Discount, VAT, Additional VAT, Excise duty etc. User defined fields can be created from  Main Menu -> Advance Usage -> Layout Setting -> User Field (Sale) . You can open two types of fields  Top and Bottom. Top fields are informative fields like Delivery At, Documents Through, Time of Removal, Sales Man Name etc. You need to give max width required and “T” in Top/Bottom. Bottom Fields are fields which affects Invoice Amount like Discount, VAT, Excise etc.  Size of such fields generally 12 and give “B” in Top/Bottom. You can select Respective Ledger of Tax account against Account field, this will credit/debit field amount to selected ledger account. After creating required fields press ctrl+w to save."
     },
     {
         id: 4,
-        question: "Do I need to warm up before my workouts?",
-        answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
+        question: "How to take Backup ? How to restore old data?", 
+        answer: "You need to take Backup everyday it is very important in the event of data corruption or failure of harddisk. You can take backup in the same harddisk also, however it is advisable to take in pendrive or other harddisk or other computer. Press F10  at Company menu (First menu when you start). Company wise Backup  will ask for selecting company , fin year and path with drive letter (e.g. H:\shreebackup) folder where you want to take backup. Company wise Restore  will ask for path (e.g. H:\shreebackup) from where you want restore. Program will give list of backup of company selecting company , fin year and path with drive letter where you want to take backup."  
     },
     {
         id: 5,
-        question: "Should I do strength training, cardio or both?",
-        answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
+        question: "How to set user defined Invoice Printing ?",
+        answer: "Shree Sava has very flexible user defined invoice printing format setting facility.  First you need to set entry by adding fields to enter information in sales entry from Main Menu -> Advance Usage -> Layout Setting -> User Field(Sale). After entry setup Printing Layout can be set from Main Menu -> Advance Usage -> Layout Setting -> User Report -> Create/Alter For invoice printing layout name will start with “INV” like INV001, INVPLAIN, INVEXCISE etc."
     },
     {
         id: 6,
-        question: "Should I lift weights for strength training?",
-        answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
+        question: "How to print Receipt/Cheque/Invoice instantly after entry ?",
+        answer: "Go to Main Menu -> Advance Usage -> Control Center. Under Accounting features Online Voucher Print ?  Press “Y” and you will get list of all voucher and tick for immediate print after entry. Press Ctrl + W to save changes."
+    },
+    {
+        id: 7,
+        question: "How to setup  GST Paid Rate entry in sales entry?",
+        answer: "Go to Main Menu -> Advance Usage -> Control Center. Under Sales Features  GST Paid Rate in Sales Entry ?  Press “Y” will setup formula so that amount column will be Qty x Rate  less GST Value and  total bill value will be sum of Qty x Rate of all items. Press Ctrl + W to save changes."
+    },
+    {
+        id: 8,
+        question: "Automatic Roundoff in sales and purchase entry ?",
+        answer: "Go to Main Menu -> Advance Usage -> Control Center. Under Sales Features Roundoff in Sales Entry,  Press “Y”.  Under Purchase Features Configure Purchase Features,  Press “Y” and then you can give “Y” against Roundoff in Purchase Entry. This will setup automatic rounding of grand total of Sales and Purchase entry. If you want this difference to credit/debit to separate account then under Accounting Features you can select at Kasar Account Code field. Press Ctrl + W to save changes."
+    },
+    {
+        id: 9,
+        question: "How to make an entry at the time of Report viewing ?",
+        answer: "Press Ctrl + I to  insert any entry at the display of Report."
+    },
+    {
+        id: 10,
+        question: "How to start Remote Support ?",
+        answer: "Press  Ctrl+ A to  start Anydesk. Or you can download Anydesk program from google search for Anydesk."
     }
 ]
 
