@@ -68,7 +68,7 @@ export const mainHeader = [
     {
         id:4,
         heading: "Solutions for Excise Trading Business and Excise Manufacturing",
-        image: require("./images/excise.jpg"),
+        image: require("./images/excise.png"),
         desc: "Suitable for Excise, VAT, CST, Service Tax, TDS"
     },
 ]
@@ -493,8 +493,9 @@ export const plans = [
     {
         id: 1,
         name: 'Single User',
+        fee: 12000,
         desc: 'This package is perfect for beginners who need constant help',
-        price: 29.99,
+        price: 2500,
         features: [
             {feature: 'First Feature', available: true},
             {feature: 'Second Feature', available: true},
@@ -514,8 +515,9 @@ export const plans = [
     {
         id: 2,
         name: 'Multi User / Lan Version',
+        fee: 22000,
         desc: 'This is the perfect package for beginners who know what their doing',
-        price: 49.99,
+        price: 4500,
         features: [
             {feature: 'First Feature', available: true},
             {feature: 'Second Feature', available: true},
@@ -531,28 +533,28 @@ export const plans = [
             {feature: 'Tenth Feature', available: false},
             {feature: 'Eleventh Feature', available: false}
         ]
-    },
-    {
-        id: 3,
-        name: 'Platinum Package',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 89.99,
-        features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: true},
-            {feature: 'Sixth Feature', available: true},
-            {feature: 'Seventh Feature', available: true},
-            {feature: 'Seventh Feature Plus', available: true},
-            {feature: 'Eighth Feature', available: true},
-            {feature: 'Ninth Feature', available: true},
-            {feature: 'Tenth Feature', available: true},
-            {feature: 'Eleventh Feature', available: true}
-        ]
     }
+    // {
+    //     id: 3,
+    //     name: 'Platinum Package',
+    //     desc: 'This package is perfect for busy people who need home service',
+    //     price: 89.99,
+    //     features: [
+    //         {feature: 'First Feature', available: true},
+    //         {feature: 'Second Feature', available: true},
+    //         {feature: 'Third Feature', available: true},
+    //         {feature: 'Fourth Feature', available: true},
+    //         {feature: 'Fifth Feature', available: true},
+    //         {feature: 'Fifth Feature Plus', available: true},
+    //         {feature: 'Sixth Feature', available: true},
+    //         {feature: 'Seventh Feature', available: true},
+    //         {feature: 'Seventh Feature Plus', available: true},
+    //         {feature: 'Eighth Feature', available: true},
+    //         {feature: 'Ninth Feature', available: true},
+    //         {feature: 'Tenth Feature', available: true},
+    //         {feature: 'Eleventh Feature', available: true}
+    //     ]
+    // }
 ]
 
 

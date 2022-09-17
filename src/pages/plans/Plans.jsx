@@ -8,7 +8,7 @@ const Plans = () => {
   return (
     <>
     <Header title="Membership Plans" image={HeaderImage}>
-      Choose your Pricing Plan
+      Choose your Pricing Plan. Please note that a One Time Fee will be applicable for both respective plans
     </Header>
     <section className="plans">
       <div className="container plans__container">
@@ -17,7 +17,8 @@ const Plans = () => {
             return <Card key={id} className='plan'>
               <h3>{name}</h3>
               <small>{desc}</small>
-              <h1>{`₹${price}`}</h1><h2>/mo</h2>
+              <h1>{`₹${price}`}</h1><h2>/year</h2>
+              {/* <h6>with a one time fee {fee}</h6> */}
               <h4>Features</h4>
               {
                 features.map(({feature,available},index) => {
