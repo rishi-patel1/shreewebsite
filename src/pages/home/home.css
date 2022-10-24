@@ -1,6 +1,6 @@
 .main__header{
     width: 100vw;
-    height: calc(100vh-3rem);
+    height: calc(100vh-3rem);   
     display: grid;
     place-items: center;
     margin-top: 3rem;
@@ -380,13 +380,16 @@ footer{
         margin-top: 0;
         padding: 12rem 0 0;
         height: 100vh;
-    }
-    .main__header-circle, .main__header-image{
         display: none;
+        
     }
-
+    
     .main__header-container{
         grid-template-columns: 1fr;
+    }
+    .programs{
+        margin-top: 10rem;
+    
     }
 
     /* PROGRAMS */
@@ -396,6 +399,10 @@ footer{
         margin-top: 3rem;
 
     }
+    .section__head < h2{
+        font-size: 2rem;
+    }
+
 
     .programs__program{
         width: 84%;
