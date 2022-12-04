@@ -399,7 +399,7 @@ footer{
         margin-top: 3rem;
 
     }
-    .section__head < h2{
+    .section__head > h2{
         font-size: 2rem;
     }
 
